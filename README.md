@@ -1,2 +1,2 @@
-# digtal_IC_assignment
+# Digtal_IC_assignment
 Verilog for Dunshan Yu assignment
