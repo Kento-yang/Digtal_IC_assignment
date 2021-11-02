@@ -1,0 +1,42 @@
+`timescale 1 ps/ 1 ps
+module CLA_adder_tb();
+reg C0;
+reg [3:0] a;
+reg [3:0] b;
+// wires                                               
+wire C4;
+wire [3:0]  s;
+
+
+// assign statements (if any)                          
+CLA_adder u0_CLA_adder (
+// port map - connection between master ports and signals/registers   
+	.C0(C0),
+	.C4(C4),
+	.a(a),
+	.b(b),
+	.s(s)
+);
+
+integer i;
+integer j;
+reg [9:0] testcase_C0_0,testcase_C0_1;
+
+initial begin  	
+	testcase_C0_0=0;
+	testcase_C0_1=0;
+	for(i=0;i<=8'b11111111;i=i+1)begin
+		{a,b}=i;
+			C0=0;
+		testcase_C0_0 = testcase_C0_0 + 1;
+		#2;
+	end
+	for(j=0;j<=8'b11111111;j=j+1)begin
+		{a,b}=j;
+			C0=1;
+		testcase_C0_1 = testcase_C0_1 + 1;
+		#2;
+	end
+
+end															 
+endmodule

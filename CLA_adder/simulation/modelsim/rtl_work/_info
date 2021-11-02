@@ -1,0 +1,47 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Modelsim_project\Digital_IC_assignment\CLA_adder\simulation\modelsim
+vCLA_adder
+IPKebJI=:b^@QdH8::@VY^3
+VcSl92=3KM`IS9QI>;>Jo43
+Z1 dD:\Modelsim_project\Digital_IC_assignment\CLA_adder\simulation\modelsim
+w1635485732
+8D:/Modelsim_project/Digital_IC_assignment/CLA_adder/CLA_adder.v
+FD:/Modelsim_project/Digital_IC_assignment/CLA_adder/CLA_adder.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+n@c@l@a_adder
+!i10b 1
+!s100 R4@V]_ZGd6]8V`J@P^9;:2
+!s85 0
+!s108 1635489638.555000
+!s107 D:/Modelsim_project/Digital_IC_assignment/CLA_adder/CLA_adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Modelsim_project/Digital_IC_assignment/CLA_adder|D:/Modelsim_project/Digital_IC_assignment/CLA_adder/CLA_adder.v|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+D:/Modelsim_project/Digital_IC_assignment/CLA_adder -O0
+vCLA_adder_tb
+!i10b 1
+!s100 FVS8LAl>Ll^mBOdJ]gHTW0
+IWHT3DXlC3GV`GUn7RRLeG0
+VOTOO1Z7]B9<QJk<WR6lHj1
+R1
+w1635489613
+8D:/Modelsim_project/Digital_IC_assignment/CLA_adder/simulation/modelsim/CLA_adder.vt
+FD:/Modelsim_project/Digital_IC_assignment/CLA_adder/simulation/modelsim/CLA_adder.vt
+L0 2
+R2
+r1
+!s85 0
+31
+!s108 1635489638.722000
+!s107 D:/Modelsim_project/Digital_IC_assignment/CLA_adder/simulation/modelsim/CLA_adder.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Modelsim_project/Digital_IC_assignment/CLA_adder/simulation/modelsim|D:/Modelsim_project/Digital_IC_assignment/CLA_adder/simulation/modelsim/CLA_adder.vt|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+D:/Modelsim_project/Digital_IC_assignment/CLA_adder/simulation/modelsim -O0
+n@c@l@a_adder_tb
