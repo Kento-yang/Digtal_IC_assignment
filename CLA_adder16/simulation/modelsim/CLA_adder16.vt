@@ -1,0 +1,48 @@
+
+`timescale 1 ps/ 1 ps
+module CLA_adder16_tb();
+reg unsigned [31:0] a_in;
+reg unsigned [31:0] b_in;
+reg c_in;
+// wires                                               
+wire c_0;
+wire unsigned [31:0]  sum_o;
+
+// assign statements (if any)                          
+CLA_adder16 i1 (
+	.a_in(a_in),
+	.b_in(b_in),
+	.c_0(c_0),
+	.c_in(c_in),
+	.sum_o(sum_o)
+);
+
+initial begin  	
+	a_in = 32'hfedd1234;
+	b_in = 32'h00030408;
+	c_in = 0;
+	
+	#5;
+	a_in = 32'hfeed0127;
+	b_in = 32'h35682712;
+	c_in = 0;
+	
+	#5;
+	a_in = 32'hffffffff;
+	b_in = 32'h00000000;
+	c_in = 1;
+	
+	#5;
+	a_in = 32'habcddcba;
+	b_in = 32'h11111111;
+	c_in = 1;
+	
+	#5;
+	a_in = 32'h11111111;
+	b_in = 32'h11111111;
+	c_in = 1;
+
+
+end															 
+endmodule
+
